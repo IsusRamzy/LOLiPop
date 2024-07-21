@@ -3,7 +3,7 @@ import pickle
 
 print('Welcome to LOLiPop')
 
-path = input('Meme path: ')
+path = input('Meme path (Without the LOL): ')
 
 with open(path+'.lol', 'rb') as f:
     meme = pickle.load(f)
